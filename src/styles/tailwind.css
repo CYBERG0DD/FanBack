@@ -1,0 +1,21 @@
+/* ══════════════════════════════════════
+   FANBACK tailwind.css
+══════════════════════════════════════ */
+
+@import 'tailwindcss' source(none);
+@source '../**/*.{js,ts,jsx,tsx}';
+@import 'tw-animate-css';
+
+/* This is your new "Master Color File" for Tailwind v4 */
+@theme {
+   /* Your primary accent colors */
+   --color-brand-light: #818cf8;
+   --color-brand: #6366f1;
+   --color-brand-dark: #4f46e5;
+
+   /* Your background and layout colors */
+   --color-surface-base: #020617;
+   --color-surface-card: #0f172a;
+   --color-surface-border: #1e293b;
+   --color-surface-input: #0f172a;
+}
